@@ -63,6 +63,9 @@
     }
 
     /* section Destination */
+    .destination{
+        margin-bottom: 50px;
+    }
     .destination .row{
         flex-direction: column;
         margin: 20px;
@@ -90,6 +93,28 @@
         margin-bottom: 0px;
     }
 
+
+    /* section choose */
+    .choose{
+        margin-bottom: 50px;
+    }
+    .card{
+        width: 335px;
+        height: 289px;
+    }
+    .card-container{
+        margin-top: 30px;
+    }
+    .card-1,.card-2{
+        margin: 0 auto 20px auto;
+    }
+    .card-1-2{
+        flex-direction: column;
+        margin: 0 auto 1px auto;
+    }
+    .card img{
+        margin: 20px 0 0 20px ;
+    }
 
     /* footer */
     footer h1{

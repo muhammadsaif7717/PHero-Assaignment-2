@@ -144,8 +144,35 @@ nav .home{
 .src-bar select{
     color:#5A5A5D;
 }
+ 
+/* section tours */
+.tours{
+    display: flex;
+    margin: 100px 0;
+}
+.tours-texts{
+    margin-top: 40px;
+}
+.tours-texts h1{
+    text-align: start;
+    margin-bottom: 20px;
 
-
+}
+.tours-texts p{
+    text-align: start;
+    padding: 0 20px 0 0;
+    margin: 20px 0;
+}
+.tours-texts ul{
+    margin-left: 25px;
+}
+.tours-texts ul li{
+    padding: 5px 0;
+    color: #5A5A5D;
+}
+.tours-texts>button{
+    margin: 0;
+}
 
 
 

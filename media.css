@@ -32,6 +32,28 @@
         align-items: center;
         flex-direction: column;
     }
+    .src-bar input,select{
+        width: 250px;
+    }
+    .src-bar button{
+        width: 250px;
+    }
+    /* section tour */
+    .tours{
+        flex-direction: column;
+        margin: 40px 0;
+    }
+    .tours-texts{
+        margin: 30px;
+    }
+    .tours-img img{
+        width: 90%;
+        display: block;
+        margin: 0 auto
+    }
+
+
+
 
     /* main */
     main{

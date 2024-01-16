@@ -121,6 +121,7 @@
 
     /* section newslatter */
     .newslatter{
+        margin-bottom: 50px;
         flex-direction: column;
     }
     .newslatter-text{
@@ -133,6 +134,17 @@
         margin: 10px auto 0 auto;
         display: block;
     }
+    .save{
+        position: absolute;
+        bottom: 38px;
+        right: 17px;
+        width: 250px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+    }
+
+
     /* footer */
     footer h1{
         padding-top: 20px;
@@ -143,8 +155,11 @@
     footer ul{
         margin: 10px auto;
     }
-    hr{
+    .hr{
         width: 335px;
+        height: 1.5px;
+        border: none;
+        background: #E0E0E0;
     }
     .rights{
         padding: 20px 0;

@@ -127,7 +127,8 @@ nav .home{
     display: flex;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    width: 850px;
+    width: 795px;
+    padding: 3px 0;
     margin: 40px auto 0
     auto;
 }
@@ -333,7 +334,39 @@ main{
 .newslatter-img img{
     width: 100%;
 }
-
+.newslatter-img {
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+.save{
+    position: absolute;
+    bottom: 55px;
+    right: 4px;
+    width: 250px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+}
+.save h6{
+    padding-top: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15.854px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+.save h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 21.138px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+}
 
 
 
@@ -369,15 +402,16 @@ footer ul{
     margin: 33px auto ;
     width: 200px;
 }
-footer ul li{
+footer ul li{        
     display: inline;
     padding: 0 10px;
 }
-hr{
+footer hr{
     width: 872px;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
     margin: 0 auto;
+    border: none;
 }
 
 .rights{

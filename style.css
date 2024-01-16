@@ -182,7 +182,7 @@ main{
     color: #5A5A5D;
 }
 .tours-texts>button{
-    margin: 0;
+    margin: 20px 0 0 0;
 }
 
 /* section Destination */
@@ -234,6 +234,7 @@ main{
     margin: 0 auto;
     padding-top: 10px;
 }
+
 .card-container{
     margin-top: 60px;
 }
@@ -287,6 +288,51 @@ main{
     padding: 20px 0 0 30px;
 }
 
+/* section newslatter */
+.newslatter{
+    display: flex;
+    margin-bottom: 100px;
+}
+.newslatter-text{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-right: 50px;
+    padding: 40px;
+}
+.newslatter-text h1{
+    text-align: left;
+}
+.newslatter-text p{
+    text-align: left;
+    margin-top: 10px;
+}
+.newslatter-text input{
+    width: 393px;
+    padding: 15px 20px;
+    margin: 7px 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    outline: none;
+    border: none;
+}
+.newslatter-text button{
+    width: 393px;
+    height: 55px;
+    margin: 15px 0;
+    font-weight: 800;
+}
+.newslatter-text hr{
+    width: 393px;
+    height: 1.5px;
+    border: none;
+    background: #F3F3F3;
+    margin: 10px 0 ;
+}
+.newslatter-img img{
+    width: 100%;
+}
 
 
 

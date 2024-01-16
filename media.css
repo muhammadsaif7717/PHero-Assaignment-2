@@ -88,9 +88,12 @@
     .destination  .title{
         margin: 50px 0 10px 0;
     }
+    .destination>h1{
+        font-size: 35px;
+    }
     .destination  .pera{
         width: 100%;
-        margin-bottom: 0px;
+        padding: 0 20px;
     }
 
 
@@ -116,6 +119,20 @@
         margin: 20px 0 0 20px ;
     }
 
+    /* section newslatter */
+    .newslatter{
+        flex-direction: column;
+    }
+    .newslatter-text{
+        width: 95%;
+        margin: 10px auto 0 auto;
+        display: block;
+    }
+    .newslatter-img img{
+        width: 95%;
+        margin: 10px auto 0 auto;
+        display: block;
+    }
     /* footer */
     footer h1{
         padding-top: 20px;

@@ -54,8 +54,31 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-nav ul{
+
+nav .logo h1 img{
+    width: 48px;
+
+}
+
+nav .logo h1{
+        font-size: 36px;
+        font-weight: 800;
+        font-size: 32px;
+        padding: 50px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.nav-h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+nav ul,.three-line{
     list-style: none;
+    padding: 60px 20px;
+}
+.three-line{
+    margin-right: 20px;
 }
 nav ul li{
     display: inline;
@@ -70,6 +93,56 @@ nav .home{
 }
 .three-line{
     display: none;
+}
+/* header banner */
+.banner{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+}
+.banner h1{
+    padding: 100px 0 25px 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+.banner-desc{
+    color: #FFF;
+    width: 70%;
+    margin: 0 auto;
+}
+.src-bar{
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 850px;
+    margin: 40px auto 0
+    auto;
+}
+.src-bar input,select,button{
+    width: 175px;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    height: 52px;
+}
+.src-bar>button{
+    padding: 0px;
+    font-weight: 400;
+}
+.src-bar select{
+    color:#5A5A5D;
 }
 
 
@@ -105,6 +178,10 @@ footer h1{
     padding-top: 100px;
     font-weight: 800;
     font-size: 32px;
+}
+.footer-h1{
+    font-weight: 800;
+    font-size: 40px;
 }
 footer p{
     width: 80%;

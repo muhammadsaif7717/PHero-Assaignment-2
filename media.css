@@ -6,9 +6,32 @@
         width: 100%;
     }
     .three-line{
+        display: block;
+    }
+    nav ul{
         display: none;
     }
-
+    nav .logo h1{
+        padding: 20px 10px;
+    }
+    .three-line{
+        padding: 33px 0;
+    }
+    /* banner */
+    .banner{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner h1{
+        padding: 10px;
+        font-size: 40px;
+    }
+    .src-bar{
+        margin: 15px auto;
+        width: 290px;
+        align-items: center;
+        flex-direction: column;
+    }
 
     /* main */
     main{

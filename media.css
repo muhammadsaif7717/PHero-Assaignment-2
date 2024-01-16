@@ -38,6 +38,16 @@
     .src-bar button{
         width: 250px;
     }
+
+
+    
+    /* main */
+    main{
+        width: 100%;
+    }
+
+
+
     /* section tour */
     .tours{
         flex-direction: column;
@@ -52,13 +62,35 @@
         margin: 0 auto
     }
 
-
-
-
-    /* main */
-    main{
-        width: 100%;
+    /* section Destination */
+    .destination .row{
+        flex-direction: column;
+        margin: 20px;
     }
+    .destination img{
+        width: 335px;
+        height: 176px;
+        display: block;
+        margin: 0 auto;
+    }
+    .destination .row{
+        margin: 10px 0;
+    }
+    .destination .row div{
+        margin-top: 10px; 
+    }
+    .destination .row div:first-child{
+        margin-top: 0;
+    }
+    .destination  .title{
+        margin: 50px 0 10px 0;
+    }
+    .destination  .pera{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+
     /* footer */
     footer h1{
         padding-top: 20px;

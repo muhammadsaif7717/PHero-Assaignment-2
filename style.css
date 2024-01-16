@@ -64,7 +64,7 @@ nav .logo h1{
         font-size: 36px;
         font-weight: 800;
         font-size: 32px;
-        padding: 50px 20px;
+        padding: 50px 0px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -75,7 +75,7 @@ nav .logo h1{
 }
 nav ul,.three-line{
     list-style: none;
-    padding: 60px 20px;
+    padding: 60px 0px;
 }
 .three-line{
     margin-right: 20px;
@@ -83,6 +83,9 @@ nav ul,.three-line{
 nav ul li{
     display: inline;
     padding: 0 10px;
+}
+nav ul li:last-child{
+    padding-right: 0;
 }
 nav ul li a{
     text-decoration: none;
@@ -145,6 +148,14 @@ nav .home{
     color:#5A5A5D;
 }
  
+
+/* main */
+main{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
 /* section tours */
 .tours{
     display: flex;
@@ -161,7 +172,7 @@ nav .home{
 .tours-texts p{
     text-align: start;
     padding: 0 20px 0 0;
-    margin: 20px 0;
+    margin: 0px 0;
 }
 .tours-texts ul{
     margin-left: 25px;
@@ -174,12 +185,44 @@ nav .home{
     margin: 0;
 }
 
+/* section Destination */
+.destination{
+    margin-bottom: 100px;
+}
+.destination .row{
+    width: 100%;
+    display: flex;
+    margin:  20px 0;
+}
+.destination .row div{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.destination .row div h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.destination img{
+    margin: 0 12.5px;
 
-/* main */
-main{
-    width: 1170px;
+}
+.destination  .title{
+    margin: 40px 0 20px 0;
+}
+.destination  .pera{
+    width: 60%;
     margin: 0 auto;
+    margin-bottom: 50px;
+}
+.maldives,.srilanka,.bangladesh{
+    margin-left: 0;
+}
+.indonesia,.kashmir,.bandarban{
+    margin-right: 0;
 }
 
 

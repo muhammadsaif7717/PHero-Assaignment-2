@@ -243,6 +243,7 @@ main{
     width: 573px;
     height: 284px;            
 }
+
 .card-1{
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -288,6 +289,38 @@ main{
 .card-3 p{
     padding: 20px 0 0 30px;
 }
+
+
+/* section  Big January sale*/
+.big-january-sale{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    background-color: #EFF3F7;
+    border-radius: 16px;
+
+}
+.sale-texts h1{
+    margin-top: 10px;
+    text-align: left;
+    padding: 20px;
+}
+.sale-texts p{
+    text-align: left;
+    width: 85%;
+    padding: 10px 20px 20px 20px;
+}
+.sale-texts button{
+    padding: 0;
+    margin-left: 20px;
+}
+.sale-img img{
+    width: 500px;
+    border-radius: 15px;
+    margin: 25px;
+    border: 2px solid rgba(233, 232, 232, 0.801);
+}
+
 
 /* section newslatter */
 .newslatter{

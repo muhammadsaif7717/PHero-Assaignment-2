@@ -119,6 +119,21 @@
         margin: 20px 0 0 20px ;
     }
 
+
+    /* section  Big January sale*/
+    .big-january-sale{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .sale-img img{
+        width: 95%;
+        display: block;
+        margin: 20px auto 40px auto;
+    }
+
+
     /* section newslatter */
     .newslatter{
         margin-bottom: 50px;

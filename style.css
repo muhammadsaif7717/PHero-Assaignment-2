@@ -183,6 +183,7 @@ main{
 }
 .tours-texts>button{
     margin: 20px 0 0 0;
+    padding-bottom: 3px;
 }
 
 /* section Destination */
@@ -358,13 +359,14 @@ main{
 }
 .newslatter-text hr{
     width: 393px;
-    height: 1.5px;
+    height: 1px;
     border: none;
-    background: #F3F3F3;
-    margin: 10px 0 ;
+    background: rgba(90, 90, 90, 0.226);
+    margin: 10px auto 0 auto ;
 }
 .newslatter-img img{
     width: 100%;
+    margin-top: 5px;
 }
 .newslatter-img {
     position: relative;
@@ -424,7 +426,7 @@ footer h1{
     font-size: 40px;
 }
 footer p{
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -441,7 +443,7 @@ footer ul li{
 footer hr{
     width: 872px;
     height: 1px;
-    background: rgba(19, 19, 24, 0.10);
+    background: rgba(90, 90, 90, 0.226);
     margin: 0 auto;
     border: none;
 }

@@ -11,6 +11,9 @@
     nav ul{
         display: none;
     }
+    nav .logo{
+        margin-left: 15px;
+    }
     nav .logo h1{
         padding: 20px 10px;
     }
@@ -21,10 +24,15 @@
     .banner{
         width: 90%;
         margin: 0 auto;
+        height: 540px;
     }
     .banner h1{
         padding: 10px;
-        font-size: 40px;
+        padding-top: 20px;
+        font-size: 35px;
+    }
+    .banner p{
+        font-size: 15px;
     }
     .src-bar{
         margin: 15px auto;
@@ -65,6 +73,9 @@
     /* section Destination */
     .destination{
         margin-bottom: 50px;
+    }
+    .destination .destination-title{
+        font-size: 30px;
     }
     .destination .row{
         flex-direction: column;
@@ -127,6 +138,9 @@
         flex-direction: column;
         margin-bottom: 50px;
     }
+    .sale-texts h1{
+        font-size: 30px;
+    }
     .sale-img img{
         width: 95%;
         display: block;
@@ -143,6 +157,24 @@
         width: 95%;
         margin: 10px auto 0 auto;
         display: block;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .newslatter-text input{
+        width: 325px;
+        margin: 7px auto 0 auto;
+    }
+    .newslatter-text button{
+        width: 325px;
+        margin: 15px auto 0 auto;
+    }
+    .newslatter-text hr{
+        width: 340px;
+        display: block;
+        margin: 15px auto  ;
     }
     .newslatter-img img{
         width: 95%;
@@ -166,15 +198,16 @@
     }
     footer p{
         padding: 10px;
+        width: 80%;
     }
     footer ul{
         margin: 10px auto;
     }
     .hr{
-        width: 335px;
-        height: 1.5px;
+        width: 76%;
+        height: 1px;
         border: none;
-        background: #E0E0E0;
+        background: #bbbbbb;
     }
     .rights{
         padding: 20px 0;
